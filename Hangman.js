@@ -75,3 +75,5 @@ start();
 function addWord(newWord) {
   listOfWords.push(newWord);
 }
+
+// test
