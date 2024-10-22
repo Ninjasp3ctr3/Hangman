@@ -28,7 +28,7 @@ function start() {
     }
   }
 
-  console.log("word to guess: " + wordToGuess);
+  console.log("Word to guess: " + wordToGuess);
 
   function setGuessedStatus() {
     guessedStatus = Array(wordToGuess.length).fill("_");
@@ -71,9 +71,3 @@ function start() {
 }
 
 start();
-
-function addWord(newWord) {
-  listOfWords.push(newWord);
-}
-
-// test
